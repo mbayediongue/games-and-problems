@@ -1,8 +1,8 @@
 As part of the artificial intelligence course at the Ecole des Mines de Saint-étienne, we implement here a model of the [tic-tac-toe game](https://en.wikipedia.org/wiki/Tic-tac-toe) (called also 'morpion' or '3 pions'), [connect four](https://en.wikipedia.org/wiki/Connect_Four)('puissance 4) and [nim game](https://en.wikipedia.org/wiki/Nim) using adversarial search algotithms: Minimax, Alpha-Beta pruning and Iterative deepening.
 
-The course is given by: [Flavien Balbo](https://www.emse.fr/~flavien.balbo/) ( (Gauthier Picard)[https://www.gauthier-picard.info/previouly]) b
+The course is given by: [Flavien Balbo](https://www.emse.fr/~flavien.balbo/) ( previously by [Gauthier Picard](https://www.gauthier-picard.info/previouly) )
 
-Here is his statement of the problem: https://www.emse.fr/~picard/cours/ai/adversarial/index.html
+[Here](https://www.emse.fr/~picard/cours/ai/adversarial/index.html) is his statement of the problem. 
 
 The source files were written by Pr. Gauthier PICARD (inspired from the algorithm provided by AIMA-Java Project), then completed by us following the exercices presented in the previous link. 
 
@@ -37,7 +37,9 @@ We represent a **state** in the game by a vector **S** of Ex 3*3+1=10 elements:
 A the beginning of the game: S[0]=1 (the player using noughts begins the game), all cells are empty (for all k>=1, S[k]=0 ).
 
 An **action** consists on chosing where to place a pawn (cross or nought) in one of the unoccupied cells. We display here the display during a game session. ("-" indicates an empty cell).
+
 ![](img/tic-tac-toe.jpg)
+
 *Screen display during game*
 
 ### Strategy: utility function
@@ -61,7 +63,9 @@ The main difference with tic-tac-toe is the effect of gravity. A player cannot c
 
 We use the same utility function as in tac-toe-toe (see above).
 
+
 ![](img/connect-four.jpg)
+
 *Screen display during game*
 
 
