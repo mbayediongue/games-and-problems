@@ -1,4 +1,4 @@
-As part of the artificial intelligence course at the Ecole des Mines de Saint-étienne, we implement here a model of the [tic-tac-toe game](https://en.wikipedia.org/wiki/Tic-tac-toe) (called also 'morpion' or '3 pions'), [connect four](https://en.wikipedia.org/wiki/Connect_Four)('puissance 4) and [nim game](https://en.wikipedia.org/wiki/Nim) using adversarial search algotithms: Minimax, Alpha-Beta pruning and Iterative deepening.
+As part of the artificial intelligence course at the Ecole des Mines de Saint-étienne, we implement here a model of the [tic-tac-toe game](https://en.wikipedia.org/wiki/Tic-tac-toe) (called also 'morpion' or '3 pions'), [connect four](https://en.wikipedia.org/wiki/Connect_Four)('puissance 4) and [nim game](https://en.wikipedia.org/wiki/Nim) using adversarial search algorithms: Minimax, Alpha-Beta pruning and Iterative deepening.
 
 The course is given by: [Flavien Balbo](https://www.emse.fr/~flavien.balbo/) ( (Gauthier Picard)[https://www.gauthier-picard.info/previouly]) b
 
@@ -6,7 +6,7 @@ Here is his statement of the problem: https://www.emse.fr/~picard/cours/ai/adver
 
 The source files were written by Pr. Gauthier PICARD (inspired from the algorithm provided by AIMA-Java Project), then completed by us following the exercices presented in the previous link. 
 
-I realised the modelisation of the games and definded the heuristic (utility function that plays a similar role as a reward signal) in order to apply adversial search algorithms (Minimax, Alpha-Beta pruning and Iterative deepening).
+I realised the modelisation of the games and definded the heuristic (utility function that plays a similar role as a reward signal) in order to apply adversarial search algorithms (Minimax, Alpha-Beta pruning and Iterative deepening).
 
 The files are to be found in the src folder of the Java Project.
 
