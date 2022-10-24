@@ -1,4 +1,4 @@
-As part of the artificial intelligence course at the Ecole des Mines de Saint-étienne, we implement here a model of the [tic-tac-toe game](https://en.wikipedia.org/wiki/Tic-tac-toe) (called also 'morpion' or '3 pions'), [connect four](https://en.wikipedia.org/wiki/Connect_Four)('puissance 4) and [nim game](https://en.wikipedia.org/wiki/Nim) using adversarial search algorithms: Minimax, Alpha-Beta pruning and Iterative deepening.
+As part of the artificial intelligence course at the Ecole des Mines de Saint-étienne, we implement here a model of the [tic-tac-toe game](https://en.wikipedia.org/wiki/Tic-tac-toe) (called also 'morpion' or '3 pions'), the [connect four game](https://en.wikipedia.org/wiki/Connect_Four)('puissance 4') and [nim game](https://en.wikipedia.org/wiki/Nim) using adversarial search algorithms: Minimax, Alpha-Beta pruning and Iterative deepening.
 
 The course is given by: [Flavien Balbo](https://www.emse.fr/~flavien.balbo/) ( previously by [Gauthier Picard](https://www.gauthier-picard.info/previouly) )
 
